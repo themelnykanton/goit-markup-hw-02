@@ -98,11 +98,13 @@ ul, ol {
 }
 
 .main-section-button {
+  font-style: "Roboto", sans-serif;
   background-color: var(--primary-brand);
-  color: var(--white-background);
+  color: var(--white);
   letter-spacing: 0.04em;
   font-weight: 500;
   cursor: pointer;
+  line-height: inherit;
 }
 
 .main-section-button:hover {
@@ -136,7 +138,7 @@ ul, ol {
 .main-team-header {
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.111;
+  line-height: 1.11;
 }
 
 .main-team-list-item {
