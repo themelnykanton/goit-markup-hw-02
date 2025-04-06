@@ -63,29 +63,22 @@ ul, ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--dark);
-}
-
-.page-header-nav-logo {
   color: var(--primary-brand);
 }
 
-.page-header-nav-list-link {
-  color: var(--dark);
+.page-header-nav-list-link,
+.page-header-address-link,
+.page-header-nav-logo {
+  color: #2e2f42;
 }
 
-.page-header-address-link {
-  text-decoration: none;
-  color: var(--dark);
-}
 
 .main {
   line-height: 150%;
-  letter-spacing: 0.02em;
 }
 
 .main-section {
-  background-color: var(--dark);
+  background-color: #2e2f42;
 }
 
 .main-section-header {
@@ -93,7 +86,6 @@ ul, ol {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
-  font-weight: bold;
   text-transform: capitalize;
   text-align: center;
 }
@@ -101,7 +93,7 @@ ul, ol {
 .main-section-button {
   font-style: "Roboto", sans-serif;
   background-color: var(--primary-brand);
-  color: var(--white);
+  color: #ffffff;
   letter-spacing: 0.04em;
   font-weight: 500;
   cursor: pointer;
@@ -109,18 +101,23 @@ ul, ol {
 }
 
 .main-section-button:hover {
-  background-color: var(--pressed-state);
+  background-color: #404BBF;
 }
 
-.team-header {
+.main-team-header {
   text-transform: capitalize;
+}
+
+.main-qualities-header {
+  letter-spacing: 0.02em;
 }
 
 .main-qualities-list-item-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
-  color: var(--dark);
+  color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .main-qualities-list-item-text {
@@ -132,7 +129,7 @@ ul, ol {
 .main-team {
   background-color: var(--light);
   text-align: center;
-  color: var(--dark);
+  color: #2e2f42;
   text-transform: capitalize;
 }
 
@@ -153,7 +150,7 @@ ul, ol {
 }
 
 .main-team-list-item-text {
-  color: var(--text);
+  color: #434455;
 }
 
 .main-portfolio {
@@ -165,6 +162,7 @@ ul, ol {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em
 }
 
 .main-portfolio-list-item {
@@ -175,16 +173,16 @@ ul, ol {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--dark);
+  color: #2e2f42;
 }
 
 .main-portfolio-list-item-text {
-  color: var(--text);
+  color: #434455;
 }
 
 .page-footer {
   font-family: var(--second-family);
-  background-color: var(--dark);
+  background-color: #2e2f42;
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
@@ -195,13 +193,10 @@ ul, ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.page-footer-logo {
   color: var(--primary-brand);
 }
 
+.page-footer-logo,
 .page-footer-text {
-  color: var(--light);
+  color: #f4f4fd;
 }
-
