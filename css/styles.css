@@ -67,9 +67,12 @@ ul, ol {
 }
 
 .page-header-nav-list-link,
-.page-header-address-link,
 .page-header-nav-logo {
   color: #2e2f42;
+}
+
+.page-header-address-link {
+  color: #434455;
 }
 
 
