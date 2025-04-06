@@ -17,7 +17,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--text);
+  color: #434455;
   background-color: var(--white-background);
 }
 
@@ -32,7 +32,7 @@ ul, ol {
 .page-header {
   font-family: var(--font-family);
   background-color: var(--accent);
-  color: var(--dark);
+  color: #2e2f42 ;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -100,7 +100,8 @@ ul, ol {
   line-height: inherit;
 }
 
-.main-section-button:hover {
+.main-section-button:hover,
+.main-section-button:focus {
   background-color: #404BBF;
 }
 
@@ -123,7 +124,8 @@ ul, ol {
 .main-qualities-list-item-text {
   font-size: 16px;
   line-height: 150%;
-  color: var(--text);
+  color: #434455;
+  letter-spacing: 0.02em;
 }
 
 .main-team {
@@ -137,6 +139,7 @@ ul, ol {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em
 }
 
 .main-team-list-item {
@@ -147,6 +150,7 @@ ul, ol {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em
 }
 
 .main-team-list-item-text {
