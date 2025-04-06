@@ -47,6 +47,7 @@ ul, ol {
 
 .page-header-address {
   font-weight: 400;
+  font-style: normal;
 }
 
 .page-header-address a:active,
@@ -59,7 +60,7 @@ ul, ol {
   font-family: var(--second-family);
   font-weight: bold;
   font-size: 18px;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--dark);
@@ -162,7 +163,7 @@ ul, ol {
 .main-portfolio-header {
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.111;
+  line-height: 1.11;
   text-align: center;
 }
 
