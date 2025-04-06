@@ -63,7 +63,7 @@ ul, ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-brand);
+  color: #434455;
 }
 
 .page-header-nav-list-link,
@@ -113,6 +113,7 @@ ul, ol {
   letter-spacing: 0.02em;
 }
 
+
 .main-qualities-list-item-header {
   font-weight: 500;
   font-size: 20px;
@@ -150,11 +151,12 @@ ul, ol {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 .main-team-list-item-text {
   color: #434455;
+  letter-spacing: 0.02em;
 }
 
 .main-portfolio {
@@ -166,7 +168,8 @@ ul, ol {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .main-portfolio-list-item {
@@ -178,10 +181,12 @@ ul, ol {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .main-portfolio-list-item-text {
   color: #434455;
+  letter-spacing: 0.02em;
 }
 
 .page-footer {
